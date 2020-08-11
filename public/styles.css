@@ -1,11 +1,17 @@
 body {
+  background-color: #f7f5ee;
   font-size: 120%;
-  font-family: Arial;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+button {
+  background-color: #aed9e0;
+  color: rgb(22, 22, 22);
 }
 
 button, input {
   font-size: 100%;
-  font-family: Arial;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+ 
 }
 
 table {
@@ -19,7 +25,7 @@ td, th {
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #aed9e0;
 }
 
 .error {
@@ -35,6 +41,7 @@ tr:nth-child(even) {
 .total {
   font-size: 150%;
   text-decoration: underline;
+  font-weight: 700;
 }
 
 .form {
@@ -48,4 +55,5 @@ tr:nth-child(even) {
   overflow: auto;
   width: 90%;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
