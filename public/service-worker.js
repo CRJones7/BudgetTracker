@@ -26,8 +26,6 @@ self.addEventListener("activate", function (evt) {
                         console.log("Removing old cache data", key);
                         return caches.delete(key);
                     }
-                }).catch(error => {
-                    console.log(error)
                 })
             );
         })

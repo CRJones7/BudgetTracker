@@ -1,8 +1,7 @@
 let transactions = [];
 let myChart;
-one = "Hello"
-example();
-console.log(one);
+
+
 fetch("/api/transaction")
   .then(response => {
     return response.json();
